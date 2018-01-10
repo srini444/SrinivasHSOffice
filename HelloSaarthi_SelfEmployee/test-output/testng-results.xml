@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64973" started-at="2018-01-04T10:32:44Z" finished-at="2018-01-04T10:33:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64973" started-at="2018-01-04T10:32:44Z" finished-at="2018-01-04T10:33:49Z">
+      <class name="test.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.NewTest@42e26948]" name="setUp" is-config="true" duration-ms="10553" started-at="2018-01-04T16:02:44Z" finished-at="2018-01-04T16:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest@42e26948]" name="f" duration-ms="53591" started-at="2018-01-04T16:02:55Z" finished-at="2018-01-04T16:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="test()[pri:0, instance:test.NewTest@42e26948]" name="test" duration-ms="3" started-at="2018-01-04T16:03:48Z" finished-at="2018-01-04T16:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewTest@42e26948]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-01-04T16:03:48Z" finished-at="2018-01-04T16:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.NewTest@42e26948]" name="tearDown" is-config="true" duration-ms="807" started-at="2018-01-04T16:03:48Z" depends-on-methods="test.NewTest.afterTest" finished-at="2018-01-04T16:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

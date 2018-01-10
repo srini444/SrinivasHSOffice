@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14465" started-at="2017-11-30T12:28:31Z" finished-at="2017-11-30T12:28:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14465" started-at="2017-11-30T12:28:31Z" finished-at="2017-11-30T12:28:45Z">
+      <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentails@6fd02e5]" name="setUp" is-config="true" duration-ms="10453" started-at="2017-11-30T17:58:31Z" finished-at="2017-11-30T17:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentails@6fd02e5]" name="verifyLoginWithInvalidCredentails" duration-ms="3864" started-at="2017-11-30T17:58:41Z" finished-at="2017-11-30T17:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentails@6fd02e5]" name="endTest" is-config="true" duration-ms="135" started-at="2017-11-30T17:58:45Z" finished-at="2017-11-30T17:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

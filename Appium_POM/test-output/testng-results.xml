@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32302" started-at="2017-12-18T09:52:29Z" finished-at="2017-12-18T09:53:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32302" started-at="2017-12-18T09:52:29Z" finished-at="2017-12-18T09:53:02Z">
+      <class name="test.POMTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.POMTest@42e26948]" name="setUp" is-config="true" duration-ms="11749" started-at="2017-12-18T15:22:29Z" finished-at="2017-12-18T15:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="POMTest()[pri:0, instance:test.POMTest@42e26948]" name="POMTest" duration-ms="19177" started-at="2017-12-18T15:22:41Z" finished-at="2017-12-18T15:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.POMTest@42e26948]" name="tearDown" is-config="true" duration-ms="1367" started-at="2017-12-18T15:23:00Z" finished-at="2017-12-18T15:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.POMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

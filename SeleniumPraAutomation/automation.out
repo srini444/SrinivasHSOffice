@@ -1,0 +1,32 @@
+2017-11-30 12:36:40 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 12:36:42 INFO  HomePage:40 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 12:36:44 INFO  TC001_VerifyLoginWithInvalidCredentails:31 - ==============Finished VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 12:54:07 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 12:54:09 INFO  HomePage:40 - Clicked On Sigin and object is :-[[FirefoxDriver: firefox on ANY (dbbd2459-6058-4437-b311-aae38b17dc46)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-30 12:54:09 INFO  HomePage:42 - Enter Email:-Test@gmail.comand object is[[FirefoxDriver: firefox on ANY (dbbd2459-6058-4437-b311-aae38b17dc46)] -> xpath: .//*[@id='email']]
+2017-11-30 12:54:10 INFO  HomePage:44 - Enter Email:-Password123and object is[[FirefoxDriver: firefox on ANY (dbbd2459-6058-4437-b311-aae38b17dc46)] -> xpath: .//*[@id='passwd']]
+2017-11-30 12:54:11 INFO  HomePage:46 - Clicked On Submit button and object is :-[[FirefoxDriver: firefox on ANY (dbbd2459-6058-4437-b311-aae38b17dc46)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-30 12:54:11 INFO  HomePage:51 - Error message is :-Authentication failed.
+2017-11-30 12:54:11 INFO  TC001_VerifyLoginWithInvalidCredentails:31 - ==============Finished VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:54:46 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:54:48 INFO  HomePage:40 - Clicked On Sigin and object is :-[[FirefoxDriver: firefox on ANY (1a5b1918-8843-456a-b035-bd774c8a9802)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-30 17:54:48 INFO  HomePage:42 - Enter Email:-Test@gmail.comand object is[[FirefoxDriver: firefox on ANY (1a5b1918-8843-456a-b035-bd774c8a9802)] -> xpath: .//*[@id='email']]
+2017-11-30 17:54:48 INFO  HomePage:44 - Enter Email:-Password123and object is[[FirefoxDriver: firefox on ANY (1a5b1918-8843-456a-b035-bd774c8a9802)] -> xpath: .//*[@id='passwd']]
+2017-11-30 17:54:50 INFO  HomePage:46 - Clicked On Submit button and object is :-[[FirefoxDriver: firefox on ANY (1a5b1918-8843-456a-b035-bd774c8a9802)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-30 17:54:50 INFO  HomePage:51 - Error message is :-Authentication failed.
+2017-11-30 17:54:50 INFO  TC001_VerifyLoginWithInvalidCredentails:31 - ==============Finished VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:57:08 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:57:11 INFO  HomePage:40 - Clicked On Sigin and object is :-[[FirefoxDriver: firefox on ANY (60403175-2ec1-49e9-bd38-382c048b6d9e)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-30 17:57:11 INFO  HomePage:42 - Enter Email:-Test@gmail.comand object is[[FirefoxDriver: firefox on ANY (60403175-2ec1-49e9-bd38-382c048b6d9e)] -> xpath: .//*[@id='email']]
+2017-11-30 17:57:11 INFO  HomePage:44 - Enter Email:-Password123and object is[[FirefoxDriver: firefox on ANY (60403175-2ec1-49e9-bd38-382c048b6d9e)] -> xpath: .//*[@id='passwd']]
+2017-11-30 17:57:12 INFO  HomePage:46 - Clicked On Submit button and object is :-[[FirefoxDriver: firefox on ANY (60403175-2ec1-49e9-bd38-382c048b6d9e)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-30 17:57:12 INFO  HomePage:51 - Error message is :-Authentication failed.
+2017-11-30 17:57:12 INFO  TC001_VerifyLoginWithInvalidCredentails:31 - ==============Finished VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:57:42 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:58:41 INFO  TC001_VerifyLoginWithInvalidCredentails:27 - ==============Staring VerifyLoginWithInvalidCredentails Test==============
+2017-11-30 17:58:43 INFO  HomePage:40 - Clicked On Sigin and object is :-[[FirefoxDriver: firefox on ANY (2c3fd3d2-b51a-4685-b9e3-953341b10191)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-30 17:58:43 INFO  HomePage:42 - Enter Email:-Test@gmail.comand object is[[FirefoxDriver: firefox on ANY (2c3fd3d2-b51a-4685-b9e3-953341b10191)] -> xpath: .//*[@id='email']]
+2017-11-30 17:58:44 INFO  HomePage:44 - Enter Email:-Password123and object is[[FirefoxDriver: firefox on ANY (2c3fd3d2-b51a-4685-b9e3-953341b10191)] -> xpath: .//*[@id='passwd']]
+2017-11-30 17:58:45 INFO  HomePage:46 - Clicked On Submit button and object is :-[[FirefoxDriver: firefox on ANY (2c3fd3d2-b51a-4685-b9e3-953341b10191)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-30 17:58:45 INFO  HomePage:51 - Error message is :-Authentication failed.
+2017-11-30 17:58:45 INFO  TC001_VerifyLoginWithInvalidCredentails:31 - ==============Finished VerifyLoginWithInvalidCredentails Test==============

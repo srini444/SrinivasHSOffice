@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75690" started-at="2017-12-18T10:39:02Z" finished-at="2017-12-18T10:40:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75690" started-at="2017-12-18T10:39:02Z" finished-at="2017-12-18T10:40:18Z">
+      <class name="test.Appium_POM_HSTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Appium_POM_HSTest@685cb137]" name="setUp" is-config="true" duration-ms="10577" started-at="2017-12-18T16:09:02Z" finished-at="2017-12-18T16:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="POMTest()[pri:0, instance:test.Appium_POM_HSTest@685cb137]" name="POMTest" duration-ms="63440" started-at="2017-12-18T16:09:13Z" finished-at="2017-12-18T16:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Appium_POM_HSTest@685cb137]" name="tearDown" is-config="true" duration-ms="1656" started-at="2017-12-18T16:10:16Z" finished-at="2017-12-18T16:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Appium_POM_HSTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
