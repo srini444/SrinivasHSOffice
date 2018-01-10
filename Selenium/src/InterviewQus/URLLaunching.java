@@ -69,7 +69,7 @@ public class URLLaunching {
 		
 		
 	//3 How window Handle 
-		String pwindow = driver.getWindowHandle();
+		//String pwindow = driver.getWindowHandle();
 		Set<String> allWindows = driver.getWindowHandles();
 		Iterator<String> allwindow = allWindows.iterator();
 		String Parentwindow = allwindow.next();
@@ -101,7 +101,7 @@ public class URLLaunching {
 		 dp.selectByValue("");
 		 dp.selectByVisibleText("Test");
 		 
-		 List<WebElement> alop = dp.getOptions();
+		// List<WebElement> alop = dp.getOptions();
 		 System.out.println("----------------------------------------");
 	
 	//6 How to do Drag and drop
