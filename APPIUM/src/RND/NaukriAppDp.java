@@ -1,6 +1,7 @@
 package RND;
 
 import java.net.URL;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.TouchAction;
@@ -11,11 +12,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class NaukriApp {
+public class NaukriAppDp {
 
 	AndroidDriver driver;
 
@@ -40,36 +42,32 @@ public class NaukriApp {
 		// Click on Search Button
 		driver.findElement(By.name("Search Jobs")).click();
 		Thread.sleep(2000);
-		
-		// Click on Enter KeySklis 
-		driver.findElement(By.name("Enter Skill, Designation, Role")).sendKeys("Testing");
-		Thread.sleep(2000);
-		driver.pressKeyCode(AndroidKeyCode.KEYCODE_PAGE_DOWN);
-		Thread.sleep(2000);
-		driver.pressKeyCode(AndroidKeyCode.ENTER);
-
-		//Experience SeekBar 
-        WebElement seek_bar=driver.findElement(By.id("naukriApp.appModules.login:id/sb_experience"));
-        int start=seek_bar.getLocation().getX();
-        System.out.println("Startpoint - " + start);
-        int y=seek_bar.getLocation().getY();
-        System.out.println("Yaxis - "+ y);
-        int end=start + seek_bar.getSize().getWidth();
-        System.out.println("End point - "+ end);
-        TouchAction action=new TouchAction(driver);
-        int moveTo=(int)(end*0.4);
-        action.longPress(start,y).moveTo(moveTo,y).release().perform();
-		Thread.sleep(3000);
-
-		
-		// Click on Select Location
-		
+						
 		driver.findElement(By.name("Select Location")).click();
-		Thread.sleep(2000);
 		
-		// Select City
+		/*// Select City
 		driver.findElement(By.name("Hyderabad / Secunderabad")).click();
 		Thread.sleep(2000);
+		*/
+		
+		
+
+		List<WebElement> location = driver.findElements(By.id("naukriApp.appModules.login:id/locationHeadingTextView"));
+		
+		int count = location.size();
+				System.out.println(count);
+				
+				for(int i=0; i<count; i++)
+				{
+					String date = location.get(i).getText();
+					System.out.println(date);
+					if(date.equals("Hyderabad / Secunderabad"))
+					{
+						location.get(i).click();
+						break;
+					}
+				}
+				
 		
 		// Click Done
 		driver.findElement(By.name("Done")).click();

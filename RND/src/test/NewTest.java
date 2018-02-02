@@ -60,6 +60,10 @@ public class NewTest extends driver_config
 						
 				Thread.sleep(2000);
 				SearchJobs.LocationButton.click();
+				Thread.sleep(5000);
+				SearchJobs.SelectCity();
+				Thread.sleep(5000);
+				SearchJobs.DoneButton.click();
 			}
 		}
 

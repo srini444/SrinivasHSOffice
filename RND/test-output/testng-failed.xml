@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="f"/>
           <include name="setUp"/>
+          <include name="test"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- test.NewTest -->

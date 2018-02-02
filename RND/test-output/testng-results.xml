@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34752" started-at="2018-02-01T14:28:30Z" finished-at="2018-02-01T14:29:05Z">
+  <suite name="Default suite" duration-ms="36330" started-at="2018-02-02T11:51:57Z" finished-at="2018-02-02T11:52:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34752" started-at="2018-02-01T14:28:30Z" finished-at="2018-02-01T14:29:05Z">
+    <test name="Default test" duration-ms="36330" started-at="2018-02-02T11:51:57Z" finished-at="2018-02-02T11:52:33Z">
       <class name="test.NewTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.NewTest@5442a311]" name="setUp" is-config="true" duration-ms="10068" started-at="2018-02-01T19:58:30Z" finished-at="2018-02-01T19:58:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.NewTest@5442a311]" name="setUp" is-config="true" duration-ms="6860" started-at="2018-02-02T17:21:57Z" finished-at="2018-02-02T17:22:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest@5442a311]" name="f" duration-ms="23278" started-at="2018-02-01T19:58:40Z" finished-at="2018-02-01T19:59:03Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest@5442a311]" name="f" duration-ms="27301" started-at="2018-02-02T17:22:04Z" finished-at="2018-02-02T17:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="test()[pri:0, instance:test.NewTest@5442a311]" name="test" duration-ms="1" started-at="2018-02-01T19:59:03Z" finished-at="2018-02-01T19:59:03Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.NewTest@5442a311]" name="test" duration-ms="3" started-at="2018-02-02T17:22:31Z" finished-at="2018-02-02T17:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewTest@5442a311]" name="afterTest" is-config="true" duration-ms="749" started-at="2018-02-01T19:59:03Z" finished-at="2018-02-01T19:59:04Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewTest@5442a311]" name="afterTest" is-config="true" duration-ms="833" started-at="2018-02-02T17:22:31Z" finished-at="2018-02-02T17:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.NewTest@5442a311]" name="tearDown" is-config="true" duration-ms="637" started-at="2018-02-01T19:59:04Z" depends-on-methods="test.NewTest.afterTest" finished-at="2018-02-01T19:59:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.NewTest@5442a311]" name="tearDown" is-config="true" duration-ms="1306" started-at="2018-02-02T17:22:32Z" depends-on-methods="test.NewTest.afterTest" finished-at="2018-02-02T17:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
