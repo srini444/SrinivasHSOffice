@@ -24,9 +24,12 @@ public class HandleScreenshot {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
 		capabilities.setCapability("platformName", "Android");
-		capabilities.setCapability("platformVersion", "4.4");
-		capabilities.setCapability("deviceName", "110158e934f1334a");
-		capabilities.setCapability("browserName", "Chrome");
+		capabilities.setCapability("platformVersion", "6.0");
+		capabilities.setCapability("deviceName", "emulator-5554");
+		capabilities.setCapability("appPackage", "net.tecnotopia.SimpleCalculator");
+		capabilities.setCapability("appActivity","net.tecnotopia.SimpleCalculator");
+		capabilities.setCapability("noReset", true);
+		//capabilities.setCapability("browserName", "Browser");
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 	}
 

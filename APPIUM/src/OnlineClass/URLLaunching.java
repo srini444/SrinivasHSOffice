@@ -16,8 +16,8 @@ public class URLLaunching {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
 		capabilities.setCapability("platformName", "Android");
-		capabilities.setCapability("platformVersion", "6.0");
-		capabilities.setCapability("deviceName", "29699e0d9904");
+		capabilities.setCapability("platformVersion", "4.4.4");
+		capabilities.setCapability("deviceName", "110158e934f1334a");
 		capabilities.setCapability("browserName", "Chrome");
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		Thread.sleep(3000);

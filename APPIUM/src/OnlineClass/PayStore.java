@@ -1,4 +1,4 @@
-package SelfEmploy;
+package OnlineClass;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -10,18 +10,16 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC_001SelfEmployLogin_FailedTestCase {
+public class PayStore {
 	AppiumDriver<WebElement> driver;
 	static ServerArguments serverArguments;
 	static AppiumServer appiumServer;
@@ -35,35 +33,20 @@ public class TC_001SelfEmployLogin_FailedTestCase {
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("platformVersion", "6.0");
 		capabilities.setCapability("deviceName", "emulator-5554");
-		capabilities.setCapability("app", "E:\\Appium Class Notes\\Class5\\Self Employ.apk");
-		capabilities.setCapability("noReset", false);
+		capabilities.setCapability("appPackage", "naukriApp.appModules.login");
+		capabilities.setCapability("appActivity", "naukriApp.appModules.login/com.naukri.dashboard.view.MNJDashboardActivity");
+		//capabilities.setCapability("noReset", false);
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Test
-	public void SelfEmployTestCase() throws InterruptedException, IOException 
+	public void SelfEmployTestCase() throws InterruptedException 
 		{
-	    
-		Thread.sleep(5000);
-	    driver.findElement(By.name("LOG IN")).click();
-	    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		try 
-		{
-		    driver.findElement(By.id("com.saarthi.main:id/mobile")).sendKeys("9871536225");
-		    driver.findElement(By.id("com.saarthi.main:id/password")).sendKeys("12345");
-		    driver.findElement(By.id("com.saarthi.main:id/email_sign_in_button")).click();
-		}
-		catch(Exception e) 
-		{
-			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(srcFile, new File("D:/myfile.png"));
-		}
+		  Thread.sleep(3000);
+		  	
 		
-	    
-	 
-	     
-	     
+		
 		}
 	
 	@AfterTest

@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class NewTest {
+public class TestNG {
   @Test
   public void f() {
 	  System.out.println("Excuted Test");
