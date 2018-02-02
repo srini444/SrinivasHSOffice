@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.NewTest">
+      <class name="config.driver_config">
         <methods>
           <include name="tearDown"/>
-          <include name="f"/>
           <include name="setUp"/>
-          <include name="afterTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- test.NewTest -->
+      </class> <!-- config.driver_config -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

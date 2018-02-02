@@ -35,7 +35,7 @@ public class NewTest extends driver_config
 	  Loginpage = PageFactory.initElements(driver, LoginPageObject.class);
 	  
 
-		String[][] dataArray = ExcelRead.readExcel("E:/Selenium Online Class/Class21/POM_JXL/", "JXLTestsheet.xls", "Sheet2");
+		String[][] dataArray = ExcelRead.readExcel("E:/Appium Class Notes/Class5/", "JXLTestsheet.xls", "Sheet2");
 		
 		
 		for (int i = 1; i < dataArray.length; i++) {
@@ -71,19 +71,7 @@ public class NewTest extends driver_config
 				Registrationpage.pincodefield.sendKeys(pincode);
 				driver.hideKeyboard();
 				
-				/*try
-				{
-				if(driver.equals(driver))
-				{
-					System.out.println("PinCode Enter pass");
-					driver.hideKeyboard();
-					
-				}
-				}
-				catch(NoSuchElementException e)
-				{
-					System.out.println("PinCode Enter Fail");
-				}*/
+				
 					
 				Thread.sleep(3000);
 				Registrationpage.checkboxfield.click();
@@ -91,15 +79,17 @@ public class NewTest extends driver_config
 				
 				Scanner scan = new Scanner(System.in);//System.in is an Input stream
 				System.out.println("Enter Captcha");
-				String captcha = scan.nextLine();
+				String OTP = scan.nextLine();
 
-				driver.findElement(By.className("android.widget.EditText")).sendKeys(captcha);
+				driver.findElement(By.className("android.widget.EditText")).sendKeys(OTP);
 				
 				Thread.sleep(10000);
 				Loginpage.mobilefield.sendKeys(mobile);
 				Loginpage.passwordfield.sendKeys(password);
 				Thread.sleep(3000);
 				Loginpage.loginbutton.click();
+				
+				
 				
 			}
 		}

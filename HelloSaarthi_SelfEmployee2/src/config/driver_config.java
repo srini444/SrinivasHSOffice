@@ -27,11 +27,11 @@ public class driver_config {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("platformVersion", "6.0");
-		capabilities.setCapability("deviceName", "110158e934f1334a");
+		capabilities.setCapability("deviceName", "emulator-5554");
 		capabilities.setCapability("app", "E:\\Appium Class Notes\\Class5\\Self Employ.apk");
 		capabilities.setCapability("noReset", true);
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				
 		
 	}
