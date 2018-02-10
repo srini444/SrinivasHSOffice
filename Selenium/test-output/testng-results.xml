@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6458" started-at="2017-12-28T12:11:53Z" finished-at="2017-12-28T12:12:00Z">
+  <suite name="Default suite" duration-ms="11596" started-at="2018-02-02T07:56:19Z" finished-at="2018-02-02T07:56:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6458" started-at="2017-12-28T12:11:53Z" finished-at="2017-12-28T12:12:00Z">
-      <class name="Class1ToClass13.FaildScreenshot">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Class1ToClass13.FaildScreenshot@5ae9a829]" name="beforeTest" is-config="true" duration-ms="5325" started-at="2017-12-28T17:41:53Z" finished-at="2017-12-28T17:41:58Z">
+    <test name="Default test" duration-ms="11596" started-at="2018-02-02T07:56:19Z" finished-at="2018-02-02T07:56:30Z">
+      <class name="Class1ToClass13.HandleCalendar">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Class1ToClass13.HandleCalendar@5ae9a829]" name="beforeTest" is-config="true" duration-ms="4796" started-at="2018-02-02T13:26:19Z" finished-at="2018-02-02T13:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Class1ToClass13.FaildScreenshot@5ae9a829]" name="f" duration-ms="1116" started-at="2017-12-28T17:41:58Z" finished-at="2017-12-28T17:42:00Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:Class1ToClass13.HandleCalendar@5ae9a829]" name="test" duration-ms="6785" started-at="2018-02-02T13:26:24Z" finished-at="2018-02-02T13:26:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Class1ToClass13.FaildScreenshot@5ae9a829]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-28T17:42:00Z" finished-at="2017-12-28T17:42:00Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Class1ToClass13.HandleCalendar@5ae9a829]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-02-02T13:26:30Z" finished-at="2018-02-02T13:26:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Class1ToClass13.FaildScreenshot -->
+      </class> <!-- Class1ToClass13.HandleCalendar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

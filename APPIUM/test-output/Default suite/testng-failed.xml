@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="RND.NaukriAppDp">
+      <class name="RND.SetStarRating">
         <methods>
-          <include name="test"/>
+          <include name="End"/>
+          <include name="set3StarRatingbar"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="set5StarRatingbar"/>
         </methods>
-      </class> <!-- RND.NaukriAppDp -->
+      </class> <!-- RND.SetStarRating -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

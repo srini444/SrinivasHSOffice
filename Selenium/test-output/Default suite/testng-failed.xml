@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Class1ToClass13.QuitBrowser">
+      <class name="SeleniumExercise.GmailComposeMail">
         <methods>
-          <include name="test"/>
-          <include name="afterTest"/>
+          <include name="f"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Class1ToClass13.QuitBrowser -->
+      </class> <!-- SeleniumExercise.GmailComposeMail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

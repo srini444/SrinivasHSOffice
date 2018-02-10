@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46837" started-at="2018-02-02T12:16:53Z" finished-at="2018-02-02T12:17:40Z">
+  <suite name="Default suite" duration-ms="100776" started-at="2018-02-09T10:01:17Z" finished-at="2018-02-09T10:02:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46837" started-at="2018-02-02T12:16:53Z" finished-at="2018-02-02T12:17:40Z">
-      <class name="RND.NaukriAppDp">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:RND.NaukriAppDp@8bd1b6a]" name="setUp" is-config="true" duration-ms="4623" started-at="2018-02-02T17:46:53Z" finished-at="2018-02-02T17:46:58Z">
+    <test name="Default test" duration-ms="100776" started-at="2018-02-09T10:01:17Z" finished-at="2018-02-09T10:02:57Z">
+      <class name="RND.SetStarRating">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:RND.SetStarRating@6d4b1c02]" name="setUp" is-config="true" duration-ms="96562" started-at="2018-02-09T15:31:17Z" finished-at="2018-02-09T15:32:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:RND.NaukriAppDp@8bd1b6a]" name="test" duration-ms="41543" started-at="2018-02-02T17:46:58Z" finished-at="2018-02-02T17:47:39Z">
+        <test-method status="PASS" signature="set3StarRatingbar()[pri:0, instance:RND.SetStarRating@6d4b1c02]" name="set3StarRatingbar" duration-ms="1323" started-at="2018-02-09T15:32:53Z" finished-at="2018-02-09T15:32:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:RND.NaukriAppDp@8bd1b6a]" name="tearDown" is-config="true" duration-ms="649" started-at="2018-02-02T17:47:39Z" finished-at="2018-02-02T17:47:40Z">
+        </test-method> <!-- set3StarRatingbar -->
+        <test-method status="PASS" signature="set5StarRatingbar()[pri:0, instance:RND.SetStarRating@6d4b1c02]" name="set5StarRatingbar" duration-ms="957" started-at="2018-02-09T15:32:54Z" finished-at="2018-02-09T15:32:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- RND.NaukriAppDp -->
+        </test-method> <!-- set5StarRatingbar -->
+        <test-method status="PASS" signature="End()[pri:0, instance:RND.SetStarRating@6d4b1c02]" name="End" is-config="true" duration-ms="1897" started-at="2018-02-09T15:32:55Z" finished-at="2018-02-09T15:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- RND.SetStarRating -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -52,7 +52,7 @@ public class HandleCalendar {
 		{
 			String date = dates.get(i).getText();
 			System.out.println(date);
-			if(date.equals("28"))
+			if(date.equals("21"))
 			{
 				dates.get(i).click();
 				break;
@@ -72,7 +72,7 @@ public class HandleCalendar {
 				{
 					String date2 = dates2.get(j).getText();
 					System.out.println(date2);
-					if(date2.equals("29"))
+					if(date2.equals("22"))
 					{
 						dates2.get(j).click();
 						break;
